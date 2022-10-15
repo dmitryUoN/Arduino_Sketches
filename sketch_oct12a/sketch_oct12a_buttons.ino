@@ -15,3 +15,7 @@ void loop() {
   }
   else {digitalWrite (13,0);
   }
+  
+  Serial.print("Button1: "); Serial.print(button1);
+  Serial.print(" Button2: "); Serial.println(button2);
+}
